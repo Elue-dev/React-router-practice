@@ -1,0 +1,51 @@
+.final .bg{
+    /* background: url("./react-footer.jfif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    text-align: center;
+    background: rgb(49, 49, 49);
+}
+
+.final .bg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000;
+    opacity: .7;
+}
+
+button{
+    background: coral;
+    color: #fff;
+    border: none;
+    padding: .4rem .6rem;
+    cursor: pointer;
+}
+
+
+@media(max-width:500px){
+    .final .bg{
+        height: 50vh;
+    }
+    .bg h1{
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+
+    .bg p{
+        font-size: .8rem;
+    }
+}

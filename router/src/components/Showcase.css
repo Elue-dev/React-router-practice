@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.showcase .bg{
+    /* background: url("./react-show.jfif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    background: rgb(216, 216, 216);
+}
+
+span{
+    color: coral;
+}
+
+/* .showcase .bg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000;
+    opacity: .8;
+} */
+
+button{
+    background: coral;
+    color: #fff;
+    border: none;
+    padding: .4rem .6rem;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    margin-top: 2rem;
+}
+
+.content h2{
+    text-align: center;
+    color: coral;
+    margin-bottom: 1.5rem;
+}
+
+.content p{
+    line-height: 1.5;
+}
+
+.content p i{
+    color: coral;
+    margin-right: 8px;
+}
+
+.content .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.content .image img{
+    width: 95%;
+    height: 150px;
+}
+
+.content .top{
+    margin-top: 2rem;
+    margin-left: .6rem;
+}
+
+.footer{
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-size: .9rem;
+    margin-top: 3rem;
+}
+
+@media(max-width:500px){
+    .showcase .bg{
+        height: 50vh;
+    }
+
+    .bg h1{
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+
+    .bg p{
+        font-size: .8rem;
+    }
+
+    .bg .show-text{
+        max-width: 400px;
+    }
+}
