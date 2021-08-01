@@ -27,7 +27,7 @@ function Navbar() {
                     <li>Content</li>
                 </Link>
 
-                <Link to = "/hero">
+                <Link to = "/final">
                     <li>Final</li>
                 </Link>
             </ul>
