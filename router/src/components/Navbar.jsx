@@ -17,7 +17,8 @@ function Navbar() {
                  <i className={ clicked ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
 
-            <ul className={ clicked ? "menu-list" : "menu-list active"}>
+           <ul className={clicked ? "menu-list" : "menu-list active"}>
+            {/* <ul className="menu-list"> */}
                 <Link to = "/showcase">
                     <li>Showcase</li>
                 </Link>

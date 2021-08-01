@@ -31,7 +31,7 @@ function Content() {
                 </p>
             </div>
 
-            <Link to = "/hero">
+            <Link to = "/final">
                 <div className="btn">
                     <button className ="center">Back To Final Page</button>
                 </div>

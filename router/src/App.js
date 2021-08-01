@@ -16,7 +16,7 @@ function App() {
         <Route path ="/" exact component={Home}/>
         <Route path = "/showcase" component={Showcase}/>
         <Route path = "/content" component={Content}/>
-        <Route path = "/hero" component={Final}/>
+        <Route path = "/final" component={Final}/>
       </Switch>
     </div>
     </Router>
