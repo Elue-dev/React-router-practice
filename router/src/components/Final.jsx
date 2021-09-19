@@ -9,7 +9,7 @@ function Final() {
                 <h1>Welcome to React Router <span>Final</span> Page</h1>
                 <p>Lorem ipsum dolor sit amet,
                      consectetur adipisicing elit.
-                      Adipisci, eaque.</p>
+                      Adipisci, eaquemoiir.</p>
                       <Link to = "/">
                         <button>Back To Home</button>
                      </Link>
